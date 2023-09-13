@@ -1,17 +1,19 @@
 body {
-  color: brown;
+  padding: 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
 }
 
 h1 {
-  color: red;
+  color: rgb(51, 0, 255);
 }
 
 .quote {
-  color: gray;
+  color: rgb(255, 0, 191);
 }
 
 .quote.narrator {
-  color: black;
+  color: rgb(168, 115, 115);
 }
 
 #intro p {
@@ -19,6 +21,10 @@ h1 {
 }
 
 .super-important-omg {
-  font-size: 20px;
-  background-color: yellow;
+  font-size: 40px;
+  @keyframes example {
+  from {background-color: rgb(255, 0, 0);}
+  to {background-color: yellow;}
+    
+  }
 }
